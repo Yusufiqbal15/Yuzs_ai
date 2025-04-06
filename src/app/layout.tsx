@@ -40,7 +40,8 @@ export default function RootLayout({
             <main className="min-h-screen"> {children}</main>
             <footer className="bg-muted/50 py-12">
               <div className=" container mx-auto text-center px-4 text-gray-200">
-                <p>MADE BY YUSUF IQBAL ❤️ </p>
+                
+                <p> &copy;YUZS_AI❤️ 2025 All Right Reserve </p>
               </div>
             </footer>
           </ThemeProvider>
