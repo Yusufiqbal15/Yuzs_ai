@@ -2,6 +2,8 @@ import { features } from '@/data/features';
 import  Hero from '../components/hero';
 import { Card, CardContent } from '@/components/ui/card';
 import  AboutTeam from '../components/about';
+import GoogleReviews from '../components/review'
+import Rate from '../components/rate'
 export default function Home() {
   return (
   <div>
@@ -19,7 +21,7 @@ export default function Home() {
             {features.map((feature, index) => (
               <Card
               key={index}
-              className="border-2 hover:border-primary transition-colors duration-300"
+              className="border-2 cardh"
             >
               <CardContent className="pt-6 text-center flex flex-col items-center">
                 <div className="flex flex-col items-center justify-center">
@@ -37,7 +39,10 @@ export default function Home() {
         </div>
       </section>
 
+      <Rate/>
+      <GoogleReviews/>
       <AboutTeam/>
+      
    
   </div>
   );

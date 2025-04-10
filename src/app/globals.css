@@ -188,4 +188,13 @@
   height: auto;
   width: 30px;
 }
+.rate{
+  height:auto;
+  width: 30%;
+  text-align: center;
+}
+.cardh:hover{
+  border: 1px solid white;
+}
+
 
