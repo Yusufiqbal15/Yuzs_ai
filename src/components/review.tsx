@@ -76,10 +76,13 @@ const GoogleReviews = () => {
   return (
     <div className="bg-muted/50  px-6 py-12 text-white">
       <div className="max-w-6xl mx-auto">
+      <h1 className='text-center text-4xl font-bold tracking-tighter'>What our Users Say</h1>
         <div className="flex justify-between items-center mb-8">
           <div>
             <div className="flex items-center space-x-2">
+              
               <p className="text-2xl font-bold text-white">Google</p>
+              
               <p className="text-lg">Rating</p>
             </div>
             <div className="flex items-center space-x-2 mt-1">

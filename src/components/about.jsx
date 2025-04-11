@@ -181,8 +181,7 @@ const AboutTeam = () => {
                       
              
                   </div>
-                  <h1 className='mt-8 text-center text-red-500 font-bold'>THIS IS NOT A COMPLETE HERO/HOME SECTION .SOON WE ARE ADDING CLIENTS REVIEW AND MANY MORE UI </h1>
-                </div>
+                   </div>
               </section>
        
 
