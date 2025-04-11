@@ -49,7 +49,7 @@ const AboutTeam = () => {
                                       className="h-12 py-1 w-auto object-contain logo"
                                     />
                                   </Link>
-                                  <Link href="/">
+                                  <Link href="https://github.com/Yusufiqbal15">
                                     <Image 
                                       src={"/gti.png"}
                                       alt="team leader"
