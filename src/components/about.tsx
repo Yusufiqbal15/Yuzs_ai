@@ -105,7 +105,7 @@ const AboutTeam = () => {
                                       className="h-12 py-1 w-auto object-contain logo"
                                     />
                                   </Link>
-                                  <Link href="/">
+                                  <Link href="https://github.com/Sudhansh-hub">
                                     <Image 
                                       src={"/gti.png"}
                                       alt="team leader"
@@ -164,7 +164,7 @@ const AboutTeam = () => {
                                       className="h-12 py-1 w-auto object-contain logo"
                                     />
                                   </Link>
-                                  <Link href="/">
+                                  <Link href="https://github.com/Shyamji16">
                                     <Image 
                                       src={"/gti.png"}
                                       alt="team leader"

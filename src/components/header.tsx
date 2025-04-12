@@ -3,10 +3,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { Button } from './ui/button'
+import {checkUser} from '@/lib/checkUser'
 import { ChevronDown, FileText, GraduationCap, LayoutDashboard, PenBox, StarIcon } from 'lucide-react'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem,  DropdownMenuTrigger } from './ui/dropdown-menu'
 
-const Header = () => {
+const Header = async () => {
+  await checkUser();
   return (
     <header className='fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60'>
       <nav className='container mx-auto px-4 h-16 flex items-center justify-between' >
@@ -18,11 +20,12 @@ const Header = () => {
             width={1000}
             className="h-12 py-1 w-auto object-contain logoimg"
           />
+         
         </Link>
 
         <div className=' flex text-center space-x-4 '>
         <SignedIn>
-            <Link href={""}>
+            <Link href={"/dashboard"}>
             <Button variant="outline">
             <LayoutDashboard className=' h-4 w-4'/>
             <span className='hidden md:block'>Industry dashboard</span>
