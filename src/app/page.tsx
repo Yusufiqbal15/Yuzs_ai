@@ -4,6 +4,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import  AboutTeam from '../components/about';
 import GoogleReviews from '../components/review'
 import Rate from '../components/rate'
+import Freqent from '@/components/f&q';
+import CTA from '@/components/CTA';
 export default function Home() {
   return (
   <div>
@@ -42,6 +44,8 @@ export default function Home() {
       <Rate/>
       <GoogleReviews/>
       <AboutTeam/>
+      <Freqent/>
+      <CTA/>
       
    
   </div>
