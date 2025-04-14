@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(main)/ai-cover-letter/[id]/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(main)/ai-cover-letter/[id]/page.jsx", "src/app/(auth)/sign-in/[[...sign-in]]/page.jsx", "src/app/(auth)/sign-up/[[...sign-up]]/page.jsx", "src/app/(main)/ai-cover-letter/page.jsx", "src/app/(main)/interview/page.jsx", "src/app/(main)/onboarding/page.jsx", "src/app/(main)/interview/mock/page.jsx", "src/components/theme-provider.jsx", "src/components/review.jsx", "src/components/review.jsx", "src/components/rate.jsx", "src/components/header.jsx", "src/components/f&q.jsx", "src/components/CTA.jsx", "src/components/about.jsx"],
   "exclude": ["node_modules"]
 }

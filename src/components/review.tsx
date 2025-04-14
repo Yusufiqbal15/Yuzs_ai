@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star } from 'lucide-react';
+import Image from 'next/image';
 
 interface Review {
   name: string;
@@ -53,11 +54,14 @@ const ReviewCard: React.FC<{ review: Review }> = ({ review }) => {
       <p className="text-sm text-blue-300 mb-6">Read more</p>
       <div className="flex items-center space-x-3 absolute -bottom-6">
         {review.avatar ? (
-          <img
-            src={review.avatar}
-            className="w-10 h-10 rounded-full border-2 border-white"
-            alt={review.name}
-          />
+         <Image
+  src={review.avatar}
+  alt={review.name}
+  width={40}
+  height={40}
+  className="w-10 h-10 rounded-full border-2 border-white"
+  unoptimized // Optional: use this if you're loading external images and not using a loader
+/>
         ) : (
           <div className={`w-10 h-10 rounded-full flex items-center justify-center text-white font-bold ${review.bg}`}>
             {review.initials}
